@@ -1,7 +1,8 @@
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -15,48 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <ul>
-        <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Navigation/AboutPage">
-            <a>About Us</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Navigation/MessagePage">
-            <a>Message From CEO</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Navigation/TeamPage">
-            <a>Team</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Navigation/NewsPage">
-            <a>News</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Navigation/PortfolioPage">
-            <a>Portfolio Assests</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Navigation/ContactPage">
-            <a>Contact</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Navigation/FAQPage">
-            <a>FAQ</a>
-          </Link>
-        </li>
-      </ul>
+      <Navbar />
 
       <footer className={styles.footer}>
         <a
