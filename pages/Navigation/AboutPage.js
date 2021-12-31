@@ -35,6 +35,12 @@ const AboutPage = () => {
         <Grid templateColumns="repeat(4, 1fr)" gap={6}>
           <Link href="https://floragrowth.ca/">Flora-Growth</Link>
           <Link href="https://bit-digital.com/">Bit-Digital</Link>
+          <Link href="https://www.ei.ventures/">
+            Emotional Intelligence Ventures
+          </Link>
+          <Link href="https://store.robotcache.com/#!/home">
+            Robot Cache Beta
+          </Link>
         </Grid>
       </Box>
     </Box>
