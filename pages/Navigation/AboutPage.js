@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const AboutPage = () => {
   return (
-    <Box p={30}>
+    <Box>
       <Box mb={20}>
         <h1>Our Mission</h1>
         <Text>
