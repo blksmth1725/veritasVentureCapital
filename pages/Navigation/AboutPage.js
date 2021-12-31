@@ -41,6 +41,20 @@ const AboutPage = () => {
           <Link href="https://store.robotcache.com/#!/home">
             Robot Cache Beta
           </Link>
+          <Link href="https://www.qualcan.com/home/">Qualcan</Link>
+          <Link href="https://cloudastructure.com/">
+            Clouda Structure
+          </Link>
+          <Link href="https://homebistro.com/">Home Bistro</Link>
+          <Link href="https://bitfarms.com/">Bit Farms</Link>
+          <Link href="https://www.brazilpotash.com/">
+            Potassio Do Brasil
+          </Link>
+          <Link href="https://digihost.ca/docs/">Digi-Host</Link>
+          <Link href="https://emeraldpharma.com">EHP</Link>
+          <Link href="https://marathondh.com/">
+            Marathon Digital Holdings
+          </Link>
         </Grid>
       </Box>
     </Box>
