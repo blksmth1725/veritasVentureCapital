@@ -8,8 +8,8 @@ import penAndPaper from "../public/images/penAndPaper.png";
 const Navbar = () => {
   return (
     <div>
-      <Flex bg="tomato" align="center">
-        <Flex ml={10} bg="blue" align="center">
+      <Flex align="center">
+        <Flex ml={10} align="center">
           <Image
             height={100}
             width={100}
@@ -19,7 +19,7 @@ const Navbar = () => {
           <Text>Veritas Venture Capital, LLC</Text>
         </Flex>
         <Spacer />
-        <Box rounded="xl" bg="white" p={2}>
+        <Box p={2}>
           <Flex gap={10}>
             <Link color="black" href="/">
               <a>Home</a>
