@@ -1,12 +1,19 @@
 import React from "react";
-import { Box, Flex, Grid, Spacer, Text } from "@chakra-ui/layout";
+import {
+  Box,
+  Flex,
+  Grid,
+  Heading,
+  Spacer,
+  Text,
+} from "@chakra-ui/layout";
 import Link from "next/link";
 
 const AboutPage = () => {
   return (
     <Box>
       <Box mb={20}>
-        <h1>Our Mission</h1>
+        <Heading>Our Mission</Heading>
         <Text>
           Our mission is to serve the world’s most extraordinary
           companies and extraordinary people who are building
@@ -23,7 +30,7 @@ const AboutPage = () => {
       </Box>
       <Spacer />
       <Box mb={20}>
-        <h1>Companies in our portfolio</h1>
+        <Heading>Companies in our portfolio</Heading>
         <Text>
           Our latest acquisitions and partners spanning Blockchain,
           Artificial Intelligence, Biopharmaceuticals, and more..
@@ -56,6 +63,20 @@ const AboutPage = () => {
             Marathon Digital Holdings
           </Link>
         </Grid>
+      </Box>
+
+      <Box>
+        <Heading>Scaling Faster...</Heading>
+        <Text>
+          Companies that work with Veritas Venture Capital are
+          afforded numerous value-added benefits. Through our business
+          incubator forum, founders have access to executive insights
+          and networking opportunities, while our research team offers
+          tailor made expertise for your particular sector or niche.
+          In addition, we support founders and their teams on
+          marketing and communications strategies, helping architect
+          their narrative, from brand ideas to IPO planning.
+        </Text>
       </Box>
     </Box>
   );
